@@ -1,12 +1,23 @@
 import React from 'react';
+
 import { Text } from 'react-native';
 
-export default Details = ({ navigation }) => {
+import { Container } from './styles';
 
-    return (
-        <>
-            <Text>Página Detalhes</Text>
-        </>
-    );
+//import PetImage from '../../components/PetImage'
 
+const Details = ({ route }) => {
+  //const { name, address, gender, age, image, isFavorite } = route.params;
+  const { name, address, gender, age} = route.params;
+  return (
+    <Container>
+      {/*<PetImage source={ image } isFavorite={ isFavorite } height={400}/>*/}
+      <Text>{ name }</Text>
+      <Text>{ address }</Text>
+      <Text>{ gender }</Text>
+      <Text>{ age }</Text>
+    </Container>
+  );
 };
+
+export default Details;

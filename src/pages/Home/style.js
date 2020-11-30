@@ -12,6 +12,5 @@ export const HeaderContent = styled.View`
 `;
 
 export const CardsContent = styled.View`
-    background: pink;
-    height: 50px;
+    height: 400px;
 `;
