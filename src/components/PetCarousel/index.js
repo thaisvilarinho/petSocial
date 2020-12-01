@@ -25,7 +25,7 @@ const PetCarousel = ({ data, onPress }) => {
   const renderItem = ({item, index})=>{
     return (
         <Card activeOpacity={1} onPress={() => cardHandler(item)}>
-          <PetImage source={ item.image } isFavorite={ item.isFavorite }/>
+          <PetImage source={ item.image } isFavorite={ item.isFavorite } height={180}/>
           <CardBody>
             <Address>{ item.address }</Address>
             <NameContent>

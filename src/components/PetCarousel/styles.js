@@ -8,7 +8,7 @@ export const Container = styled.View`
 
 export const Card = styled.TouchableOpacity`
     background: #FFFFFF;
-    height: 400px;
+    height: 350px;
     justify-content: flex-start;
     border-radius: 50px;
 `;

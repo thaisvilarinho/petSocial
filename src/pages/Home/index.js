@@ -18,11 +18,11 @@ export default Home = ( { navigation } )=>{
     };
 
     const cats = [
-        {name:'Mingau', address: 'Capinópolis, MG ', gender: 'male', age: '1', isFavorite: true, image: Cat1},
-        {name:'Batatinha', address: 'Ituiutaba, MG ', gender: 'female', age: '1', isFavorite: true, image: Cat2},
-        {name:'Rabicho', address: 'Uberlândia, MG ', gender: 'male', age: '3', isFavorite: false, image: Cat3},
-        {name:'Tigrinha', address: 'Ipiaçu, MG ', gender: 'female', age: '1', isFavorite: true, image: Cat4},
-        {name:'Bolota', address: 'Cachoeira-Dourada, MG ', gender: 'male', isFavorite: false, age: '4', image: Cat5},    
+        {name:'Mingau', address: 'Capinópolis, MG ', gender: 'male', age: '2', breed: 'Mixed', isFavorite: true, image: Cat1},
+        {name:'Batatinha', address: 'Ituiutaba, MG ', gender: 'female', age: '1', breed: 'LaPerm', isFavorite: true, image: Cat2},
+        {name:'Rabicho', address: 'Uberlândia, MG ', gender: 'male', age: '3', breed: 'Mixed', isFavorite: false, image: Cat3},
+        {name:'Tigrinha', address: 'Ipiaçu, MG ', gender: 'female', age: '1', breed: 'Bombay', isFavorite: true, image: Cat4},
+        {name:'Bolota', address: 'Cachoeira-Dourada, MG ', gender: 'male', breed: 'Nebelung', isFavorite: false, age: '4', image: Cat5},    
       ]
 
     return (
@@ -33,7 +33,6 @@ export default Home = ( { navigation } )=>{
             <CardsContent>
                 <PetCarousel data={cats} onPress={carouselHandler}/>
             </CardsContent>            
-            {/*<Button title='Ir para a tela Detalhes' onPress={()=> navigation.navigate('Details')}/>*/}
         </Container>
         
     );
