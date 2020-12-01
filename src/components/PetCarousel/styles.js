@@ -12,21 +12,6 @@ export const Card = styled.TouchableOpacity`
     justify-content: flex-start;
     border-radius: 50px;
 `;
-//AQUI
-export const PetImage = styled.ImageBackground`
-    height: 180px;
-    border-radius: 20px;   
-    flex-direction: row; 
-    justify-content: flex-end;
-    padding: 20px;
-`;
-/*
-export const Card = styled.View`
-    background: #FFFFFF;
-    height: 400px;
-    justify-content: flex-start;
-    border-radius: 50px;  
-`;*/
 
 export const CardBody = styled.View`
     padding: 20px;

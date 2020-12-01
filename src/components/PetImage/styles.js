@@ -5,7 +5,7 @@ export const Container = styled.View`
 `;
 
 export const Background = styled.ImageBackground`
-    height: ${props => props.height + 'px'};
+    height: 180px;
     border-radius: 20px;   
     flex-direction: row; 
     justify-content: flex-end;

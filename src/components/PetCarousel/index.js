@@ -5,15 +5,14 @@ import { Dimensions } from 'react-native';
 
 import { Ionicons } from '@expo/vector-icons';
 
-import { Container, Card, Name, CardBody, PetImage, NameContent, Address, Age } from './styles';
+import { Container, Card, Name, CardBody, NameContent, Address, Age } from './styles';
 
-//import { PetImage } from '../PetImage';
+import PetImage from '../PetImage';
 
 import colors from '../../styles/colors';
 
 const SLIDER_WIDTH = Dimensions.get('window').width;
 const ITEM_WIDTH = Math.round(SLIDER_WIDTH * 0.7);
-const ITEM_HEIGHT = Math.round(ITEM_WIDTH * 3 /4);
 
 
 const PetCarousel = ({ data, onPress }) => {
@@ -26,12 +25,7 @@ const PetCarousel = ({ data, onPress }) => {
   const renderItem = ({item, index})=>{
     return (
         <Card activeOpacity={1} onPress={() => cardHandler(item)}>
-          <PetImage source={ item.image } imageStyle={{ borderRadius: 50 }}>
-            <Ionicons name='md-heart' size={40} 
-              color={ item.isFavorite ? '#bf1120' : 'white'}
-            />
-          </PetImage>
-          {/*<PetImage source={ item.image } isFavorite={ item.isFavorite } height={180}/>*/}
+          <PetImage source={ item.image } isFavorite={ item.isFavorite }/>
           <CardBody>
             <Address>{ item.address }</Address>
             <NameContent>
