@@ -14,4 +14,5 @@ export const PrimaryText = styled.Text`
     color: ${ colors.primary };    
     font-weight: bold;
     font-size: 18px;
+    align-self: ${ props => props.align };
 `;

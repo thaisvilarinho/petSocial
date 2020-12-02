@@ -30,7 +30,7 @@ const PetCarousel = ({ data, onPress }) => {
             <Address>{ item.address }</Address>
             <NameContent>
               <Name>{ item.name } </Name>
-                <Ionicons name={'ios-' + item.gender} size={26} color={colors.secondary}/>
+                <Ionicons name={'md-' + item.gender} size={26} color={colors.secondary}/>
             </NameContent>
             <Age>{ (item.age > 1) ? (item.age + ' anos') : (item.age + ' ano') }</Age>
           </CardBody>

@@ -1,11 +1,11 @@
 import React from 'react';
 import {Container, PrimaryText, SecondaryText} from './styles';
 
-export default Header = ({primaryText, secondaryText}) =>{
+export default Header = ({primaryText, secondaryText, align}) =>{
     return (
         <Container>
             <SecondaryText>{secondaryText}</SecondaryText>
-            <PrimaryText>{primaryText}</PrimaryText>
+            <PrimaryText align={align}>{primaryText}</PrimaryText>
         </Container>
     
         )

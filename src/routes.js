@@ -43,7 +43,11 @@ const Routes = () =>{
                     }
                 }} />
                 <Screen name='Details' component={Details} options={{ 
-                    title: ''            
+                    title: '',
+                    headerStyle: {
+                        backgroundColor: colors.backgroundColor,
+                        elevation: 0,
+                    }            
                 }} />
             </Navigator>
         </NavigationContainer>
