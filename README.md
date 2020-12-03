@@ -25,9 +25,9 @@ O layout da aplicação foi inspirado no protótipo que está disponível no Dri
 
 
 
-
-### Autora
 ---
+### Autora
+
 
 <a href="https://github.com/thaisvilarinho">
  <img style="border-radius: 50%;" src="https://avatars1.githubusercontent.com/u/47863628?s=460&u=2681423d3eb11362f8a8039dff5111f7d153a459&v=4" width="100px;" alt=""/>
