@@ -1,9 +1,9 @@
 # petSocial
 
-<h1>💻 Sobre o projeto</h1>
-<p>Repositório criado como forma de trabalho para a disciplina de Dispositivos Móveis - IFTM - Campus Ituiutaba/MG no 4º período do curso de Análise e Desenvolvimento de Sistemas.</p>
+<h1 align='center'>💻 Sobre o projeto</h1>
+<p align='center'>Repositório criado como forma de trabalho para a disciplina de Dispositivos Móveis - IFTM - Campus Ituiutaba/MG no 4º período do curso de Análise e Desenvolvimento de Sistemas.</p>
 
-### 🛠 Tecnologias
+<h1 >🛠 Tecnologias</h1>
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
@@ -12,13 +12,15 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [React](https://pt-br.reactjs.org/)
 - [React Native](https://reactnative.dev/)
 - [Yarn](https://yarnpkg.com/)
+- [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)
+- [styled-components](https://www.styled-components.com/)
 
 <h1>🎨 Layout</h1>
 O layout da aplicação foi inspirado no protótipo que está disponível no Dripple:
 
 [![forthebadge](https://forthebadge.com/images/badges/contains-cat-gifs.svg)](https://dribbble.com/shots/9004094-Adopt-a-Pet-App/attachments/1128222?mode=media)
 
-
+ <img style="border-radius: 50%;" src="https://j.gifs.com/0YJqkV.gif" width="400px;" alt=""/>
 
 
 
