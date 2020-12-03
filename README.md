@@ -15,7 +15,10 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 <h1>🎨 Layout</h1>
 O layout da aplicação foi inspirado no protótipo que está disponível no Dripple:
-<img src="https://img.shields.io/endpoint?color=754457&label=Acessar%20Layout&logo=Dribbble&style=for-the-badge&url=https%3A%2F%2Fdribbble.com%2Fshots%2F9004094-Adopt-a-Pet-App%2Fattachments%2F1128222%3Fmode%3Dmedia"/>
+
+[![forthebadge](https://forthebadge.com/images/badges/contains-cat-gifs.svg)](https://dribbble.com/shots/9004094-Adopt-a-Pet-App/attachments/1128222?mode=media)
+
+
 
 
 
