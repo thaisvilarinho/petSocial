@@ -20,7 +20,7 @@ O layout da aplicação foi inspirado no protótipo que está disponível no Dri
 
 [![forthebadge](https://forthebadge.com/images/badges/contains-cat-gifs.svg)](https://dribbble.com/shots/9004094-Adopt-a-Pet-App/attachments/1128222?mode=media)
 
- <img style="border-radius: 50%;" src="https://j.gifs.com/0YJqkV.gif" width="400px;" alt=""/>
+ <img style="border-radius: 50%;" src="https://j.gifs.com/0YJqkV.gif" width="800px;" alt=""/>
 
 
 
