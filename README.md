@@ -5,7 +5,7 @@
 
 <h1 >🛠 Tecnologias</h1>
 
-As seguintes ferramentas foram usadas na construção do projeto:
+As seguintes as ferramentas que foram usadas na construção do projeto:
 
 - [Expo](https://expo.io/)
 - [Node.js](https://nodejs.org/en/)
