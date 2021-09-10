@@ -16,7 +16,7 @@ As seguintes as ferramentas que foram usadas na construção do projeto:
 - [styled-components](https://www.styled-components.com/)
 
 <h1>🎨 Layout</h1>
-O layout da aplicação foi inspirado no protótipo que está disponível no Dripple:
+O layout da aplicação foi inspirado no protótipo que está disponível no Dribbble:
 
 [![forthebadge](https://forthebadge.com/images/badges/contains-cat-gifs.svg)](https://dribbble.com/shots/9004094-Adopt-a-Pet-App/attachments/1128222?mode=media)
 
